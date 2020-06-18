@@ -1,18 +1,17 @@
-name = "after-dark"
-description = "A robust, elegant dark theme"
+name = "nil-blog"
+description = "A robust, elegant dark theme, absed on after-dark"
 license = "MIT"
-homepage = "https://github.com/getzola/after-dark"
+homepage = "https://github.com/damienstanton/nil-blog"
 min_version = "0.11.0"
-demo = "https://zola-after-dark.netlify.com"
+demo = "https://damienstanton.com"
 
 [extra]
 
 
 [author]
-name = "Vincent Prouillet"
-homepage = "https://www.vincentprouillet.com"
+name = "Damien Stanton"
+homepage = "https://damienstanton.com"
 
 [original]
-author =  "comfusion"
-homepage = "https://git.habd.as/comfusion/after-dark/"
-repo = "https://git.habd.as/comfusion/after-dark/"
+name = "Vincent Prouillet"
+homepage = "https://www.vincentprouillet.com"
