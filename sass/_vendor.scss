@@ -7,12 +7,47 @@ html {
   text-rendering: geometricPrecision
 }
 
+@font-face {
+  font-family: Monoid;
+  font-style: extra-light;
+  font-weight: 100;
+  src: url('https://f001.backblazeb2.com/file/devbox-sh/monoid_halftight_nerd_retina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Monoid;
+  font-style: light;
+  font-weight: 200;
+  src: url('https://f001.backblazeb2.com/file/devbox-sh/monoid_halftight_nerd_retina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Monoid;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://f001.backblazeb2.com/file/devbox-sh/monoid_halftight_nerd_retina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Monoid;
+  font-style: medium;
+  font-weight: 500;
+  src: url('https://f001.backblazeb2.com/file/devbox-sh/monoid_halftight_nerd_retina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Monoid;
+  font-style: bold;
+  font-weight: 700;
+  src: url('https://f001.backblazeb2.com/file/devbox-sh/monoid_halftight_nerd_retina.ttf') format('truetype');
+}
+
 body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  word-wrap: break-word
+  font-family: Monoid;
+  word-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,14 +76,14 @@ code[class*=language-], pre[class*=language-], pre code {
 
 a {
   cursor: pointer;
-  color: #ff2e88;
+  color: #d47e6c;
   text-decoration: none;
-  border-bottom: 1px solid #ff2e88
+  border-bottom: 1px solid #d47e6c
 }
 
 a:hover {
-  background-color: #ff2e88;
-  color: #fff
+  background-color: #1E1E1E;
+  color: #a4f3f5
 }
 
 .grid {
@@ -62,6 +97,7 @@ a:hover {
   -ms-flex-align: start;
   -ms-grid-row-align: flex-start;
   align-items: flex-start
+
 }
 
 .grid.\-middle {
@@ -208,7 +244,7 @@ a:hover {
 }
 
 .hack h1:after {
-  content: "====================================================================================================";
+  content: "════════════════════════════════════════════════════════════════════════════════════════════════════════";
   position: absolute;
   bottom: 10px;
   left: 0
@@ -228,7 +264,7 @@ a:hover {
 }
 
 .hack h2:before {
-  content: "## "
+  content: "░░"
 }
 
 .hack h3:before {
@@ -867,7 +903,7 @@ select.form-control {
 }
 
 .dark, .dark pre {
-  background-color: #000
+  background-color: #1E1E1E
 }
 
 .dark pre {
@@ -909,7 +945,7 @@ select.form-control {
 }
 
 .dark .form-group.form-textarea label:after {
-  background-color: #000
+  background-color: #1E1E1E
 }
 
 .dark .form-control {
